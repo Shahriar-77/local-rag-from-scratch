@@ -103,11 +103,12 @@ This improves robustness for:
 
 ```
 .
-├── utilities/
+├── core/
 │   ├── ingestion.py
 │   ├── chunking.py
 │   ├── retrieval.py
-│   └── generation.py
+│
+├── generation.py
 ├── state.py
 ├── app.py
 ├── streamlit_app.py
